@@ -270,11 +270,6 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.11.8:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.26.3.1:2053 [VLESS]
 rules:
-# SANCTION BYPASS RULES
-  - DOMAIN-SUFFIX,intel.com,DIRECT
-  - DOMAIN-SUFFIX,oracle.com,DIRECT
-  - DOMAIN-SUFFIX,docker.com,DIRECT
-  - DOMAIN-SUFFIX,android.com,DIRECT
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
   - GEOIP,IR,DIRECT,no-resolve
