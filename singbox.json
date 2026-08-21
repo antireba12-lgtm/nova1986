@@ -981,12 +981,6 @@
       },
       {
         "outbound": "direct",
-        "rule_set": [
-          "geosite-category-sanctioned-ir"
-        ]
-      },
-      {
-        "outbound": "direct",
         "domain_suffix": [
           ".ir"
         ]
@@ -10596,12 +10590,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-category-sanctioned-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-sanctioned-ir.srs"
       },
       {
         "type": "remote",
